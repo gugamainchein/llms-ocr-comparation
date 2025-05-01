@@ -78,9 +78,7 @@ Feel free to fork this repo and improve model selection, add post-processing lik
 
 ## 🧠 Author
 
-Gustavo Mainchein — Development Specialist in AI Solutions
-
-[LinkedIn](https://www.linkedin.com/in/gustavomainchein)
+Gustavo Mainchein — AI Solutions Development Specialist - [LinkedIn](https://www.linkedin.com/in/gustavomainchein)
 
 ## 📜 License
 
