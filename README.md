@@ -7,8 +7,6 @@ This project demonstrates how to extract and compare text from PDF documents usi
 
 Each page of a PDF is converted into an image and sent to both models in parallel to extract textual information. The results are saved as `.txt` files per page for further analysis or use.
 
----
-
 ## 📁 Project Structure
 
 ```
@@ -18,8 +16,6 @@ Each page of a PDF is converted into an image and sent to both models in paralle
 ├── texts/            # Folder where extracted text results are saved
 └── README.md         # This file
 ```
-
----
 
 ## 🔧 How It Works
 
@@ -43,8 +39,6 @@ Using `asyncio.gather`, the notebook sends the same image to both models concurr
 
 The extracted text is saved as `.txt` files per page with side-by-side comparisons of both models.
 
----
-
 ## 📊 LLM Metrics Tracked
 
 For each model, the following metrics are logged and printed:
@@ -63,8 +57,6 @@ Amazon Nova Pro:
 - **Start Time**: 1746124263.98382
 - **End Time**: 1746124279.478841
 
----
-
 ## 📦 Requirements
 
 - Python 3.11+
@@ -74,29 +66,21 @@ Amazon Nova Pro:
   pip install boto3 pymupdf
   ```
 
----
-
 ## 🚀 How to Run
 
 1. Upload a PDF to the `documents/` folder.
 2. Open and run the `documents.ipynb` notebook.
 3. Extracted text files will be saved in the `texts/` folder.
 
----
-
 ## 🤝 Contributing
 
 Feel free to fork this repo and improve model selection, add post-processing like IdP comparison, or integrate evaluation metrics like BLEU or ROUGE scores.
-
----
 
 ## 🧠 Author
 
 Gustavo Mainchein — Development Specialist in AI Solutions
 
 [LinkedIn](https://www.linkedin.com/in/gustavomainchein)
-
----
 
 ## 📜 License
 
